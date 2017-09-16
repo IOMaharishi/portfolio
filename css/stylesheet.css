@@ -1,0 +1,139 @@
+html{
+    height: 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Lato', Arial, sans-serif;
+    color: #434343;
+    font-size: 16px;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #778492;
+}
+
+
+/*************** !!!!!!!!!!!!!!!!!!!!!   HEADER !!!!!!!!!!!!!!!!!!!!!!!! ***********************/
+
+.header{
+    border-top: 10px solid #778492;
+    padding: 30px 0;
+}
+.header .profile-container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+
+
+}
+.header .profile-image {
+    display: block;
+    margin-right: 30px;
+    vertical-align: middle;
+    float:left;
+}
+.header .profile-content {
+    padding-top: 30px;
+    float: left;
+
+}
+.header .profile-container .name{
+    font-size: 38px;
+    color: #49515a;
+    /*margin-top: 30px;*/
+}
+.header .profile-container .desc{
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #778492;
+}
+
+.header .profile-container .profile-content .social{
+    padding-top: 15px;
+    list-style: none;
+    margin-left: -5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.header .profile-container .profile-content .social a{
+    display: inline-block;
+    background: #b0b7bf ;
+    width: 36px;
+    height: 36px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;  !important
+    background-clip: padding-box;
+}
+.header .profile-container .profile-content .social li{
+    font-size: 20px;
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+
+}
+.header .profile-content .social a .fa {
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+.header .profile-container .profile-content .social a:hover{
+    background: slategrey ;
+    transition: all 0.5s;
+}
+
+.contact_btn{
+    font-family: 'Montserrat', arial, sans-serif;
+    display: block;
+    background: #54ba4e;
+    font-weight: bold;
+    color:#fff;
+    border: 1px solid #54ba4e;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 60px;
+    float: right;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 8px 16px;
+}
+
+/********************* !!!!!!!!!!!!!!!!!  CONTENT !!!!!!!!!!!!!!!!!! *****************/
+
+.content{
+
+    background: #DAE3E7;
+    height: 100%;
+    width: 100%;
+
+}
+
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+/* Ex-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+    .header .profile-container {
+        width: 1360px;
+    }
+}
